@@ -1,7 +1,7 @@
 # Concept Tagging Training
 
 This software enables the creation of concept classifiers, to be utilized by an 
-accompanying [service](https://github.com/nasa/concept-tagging-api). 
+accompanying [service](https://github.com/nasa/concept-tagging-api). This project was written about [here](https://strategy.data.gov/proof-points/2019/05/28/improving-data-access-and-data-man) for the Federal Data Strategy Incubator Project.
 
 You can see a list of options for this project by navigating to the root of the project and executing `make` or `make help`.
 
