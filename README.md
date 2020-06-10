@@ -1,7 +1,7 @@
 # Concept Tagging Training
 
 This software enables the creation of concept classifiers, to be utilized by an 
-accompanying [service](https://developer.nasa.gov/DataSquad/sti-service-compose). 
+accompanying [service](https://github.com/nasa/concept-tagging-api). 
 
 You can see a list of options for this project by navigating to the root of the project and executing `make` or `make help`.
 
