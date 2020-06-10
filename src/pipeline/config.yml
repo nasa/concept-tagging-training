@@ -1,0 +1,37 @@
+# Configuration for research access training pipeline
+
+#image: storage.analytics.nasa.gov/rat_trainer:0.12.0
+
+process:
+  term_types:
+    - "NOUN"
+    - "PROPN"
+    - "ENT"
+    - "NOUN_CHUNK"
+    - "ACRONYM"
+  abstract_field: "description"
+  concept_field: "subject.NASATerms"
+
+topic_model:
+  weights:  # assign weights for term types specified in process section
+    NOUN: 1
+    PROPN: 1
+    NOUN_CHUNK: 1
+    ENT: 1
+    ACRONYM: 1
+  min_feature_occurrence: 5
+  max_feature_occurrence: 0.9
+  number_of_topics: 10
+
+train_classifiers:
+  weights:  # assign weights for term types specified in process section
+    NOUN: 1
+    PROPN: 1
+    NOUN_CHUNK: 1
+    ENT: 1
+    ACRONYM: 1
+  min_feature_occurrence: 5
+  max_feature_occurrence: 0.9
+  min_concept_occurrence: 10
+
+

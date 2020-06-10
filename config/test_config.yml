@@ -1,0 +1,15 @@
+weights:  # assign weights for term types specified in process section
+  NOUN: 1
+  PROPN: 1
+  NOUN_CHUNK: 1
+  ENT: 1
+  ACRONYM: 1
+min_feature_occurrence: 10  
+# features from corpus which occur fewer than 
+# this many times are not used for training 
+max_feature_occurrence: 0.9  
+# features which occur in more than this percentage 
+# of the corpus are not used for training
+min_concept_occurrence: 5  
+# only concepts which occur greater than or equal to this many times 
+# in the corpus will have associated classifiers created.

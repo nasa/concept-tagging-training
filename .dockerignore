@@ -1,0 +1,13 @@
+data/*
+__pycache__/*
+notebook/*
+reports/*
+env/*
+venv/*
+docs/*
+models/*
+scratch/*
+.hypothesis/*
+.pytest_cache/*
+*.tar
+*.tar.gz
