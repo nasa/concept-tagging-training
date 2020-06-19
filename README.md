@@ -6,6 +6,8 @@ accompanying [service](https://github.com/nasa/concept-tagging-api). This projec
 ### What is Concept Tagging
 By concept tagging, we mean you can supply text, for example:` Volcanic activity, or volcanism, has played a significant role in the geologic evolution of Mars.[2] Scientists have known since the Mariner 9 mission in 1972 that volcanic features cover large portions of the Martian surface.` and get back predicted keywords, like `volcanology, mars surface, and structural properties`, as well as topics like `space sciences, geosciences`, from a standardized list of several thousand NASA concepts with a probability score for each prediction.
 
+## Requirements
+
 You can see a list of options for this project by navigating to the root of the project and executing `make` or `make help`.
 
 This project requires:
