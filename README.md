@@ -1,7 +1,7 @@
 # Concept Tagging Training
 
 This software enables the creation of concept classifiers, to be utilized by an 
-accompanying [service](https://github.com/nasa/concept-tagging-api). This project was written about [here](https://strategy.data.gov/proof-points/2019/05/28/improving-data-access-and-data-management-artificial-intelligence-generated-metadata-tags-at-nasa/) for the Federal Data Strategy Incubator Project.
+accompanying [service](https://github.com/nasa/concept-tagging-api). If you don't have your own data to train, you can use the pretrained models <a href="https://data.nasa.gov/Software/STI-Tagging-Models/jd6d-mr3p">described here</a>. This project was written about [here](https://strategy.data.gov/proof-points/2019/05/28/improving-data-access-and-data-management-artificial-intelligence-generated-metadata-tags-at-nasa/) for the Federal Data Strategy Incubator Project.
 
 ### What is Concept Tagging
 By concept tagging, we mean you can supply text, for example:` Volcanic activity, or volcanism, has played a significant role in the geologic evolution of Mars.[2] Scientists have known since the Mariner 9 mission in 1972 that volcanic features cover large portions of the Martian surface.` and get back predicted keywords, like `volcanology, mars surface, and structural properties`, as well as topics like `space sciences, geosciences`, from a standardized list of several thousand NASA concepts with a probability score for each prediction.
