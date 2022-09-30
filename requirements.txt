@@ -22,7 +22,7 @@ importlib-metadata==0.23
 jedi==0.15.1
 jellyfish==0.7.2
 Jinja2==2.11.3
-joblib==0.14.0
+joblib==1.2.0
 jsonschema==3.2.0
 kiwisolver==1.1.0
 MarkupSafe==1.1.1
